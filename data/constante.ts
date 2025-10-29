@@ -9,6 +9,10 @@ export const HERO = {
   },
 };
 
+export const TECNOLOGIAS = {
+  typescript: { url: "", title: "" },
+};
+
 export const PROYECTOS = [
   {
     nombre: "",
@@ -20,6 +24,7 @@ export const PROYECTOS = [
     url: "",
     linkedin: "",
     imagen: "",
+    tecnologias: [],
   },
 ];
 /**
