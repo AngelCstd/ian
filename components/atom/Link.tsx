@@ -18,7 +18,7 @@ export const LinkCustom = ({
   href,
   variant = "primary",
 }: LinkProps) => {
-  const className = `flex h-12 w-full items-center justify-center rounded-full px-5 md:w-[158px] ${style[variant]}`;
+  const className = `cursor-pointer flex h-12 w-full items-center justify-center rounded-full px-5 md:w-[158px] ${style[variant]}`;
 
   return (
     <a
